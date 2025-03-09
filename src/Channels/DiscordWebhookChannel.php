@@ -66,6 +66,7 @@ class DiscordWebhookChannel
             'avatar_url' => data_get($message, 'avatar_url'),
             'tts' => data_get($message, 'tts'),
             'timestamp' => data_get($message, 'timestamp'),
+            'thread_name' => data_get($message, 'threadname'),
         ]);
 
         return array_merge([
