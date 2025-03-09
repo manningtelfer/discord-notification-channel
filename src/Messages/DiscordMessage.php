@@ -14,6 +14,13 @@ class DiscordMessage
     public $content;
 
     /**
+     * Thread name (if channel is of type, forum).
+     *
+     * @var string
+     */
+    public $thread_name;
+    
+    /**
      * Override the default username of the webhook.
      *
      * @var string|null
